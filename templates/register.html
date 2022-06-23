@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form class="form" action="/insertToUser" method="post">
+        <h1 class="login-title">Registration</h1>
+        <input type="text" class="login-input" name="username" placeholder="Username" required />
+        <input type="text" class="login-input" name="email" placeholder="Email Adress">
+        <input type="text" class="login-input" name="phone_number" placeholder="Phone Number">
+        <input type="password" class="login-input" name="password" placeholder="Password"><br>
+        <br><label for="vehicle1">Do you want to receive any notification or updates?</label><br>
+        <br><span>Yes
+        <input type="checkbox" id="tickbox_yes" name="tickbox" value="1">
+        <span>No
+        <input type="checkbox" id="tickbox_no" name="tickbox" value="0"><br>
+        <br><input type="submit" name="submit" value="Register" class="login-button">
+    </form>
+</body>
+</html>
